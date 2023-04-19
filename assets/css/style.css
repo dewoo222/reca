@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.signup-btn {
+  float: right;
+  margin-right: 70px;
+}
+.signup,
+.login {
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: gray;
+  border: none;
+}
+
+.navbar {
+  display: flex;
+  margin: 10px 70px;
+  /* padding: 50px; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company-name,
+.nav-items {
+  margin: 0 50px;
+}
+
+.nav-items a {
+  margin: 10px;
+}
+
+a:active {
+  text-decoration: solid 2px #0000;
+}
+
+.fa-solid {
+  background-color: gray;
+  border-radius: 15px;
+  padding: 5px;
+}
+.hero {
+  background-image: url("https://picsum.photos/200/300/?blur");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 50px;
+}
+input {
+  padding: 10px;
+  border-radius: 5px none;
+  position: relative;
+}
+
+.hero-content {
+  justify-items: center;
+}
+.input-field {
+  position: relative;
+}
+.categories {
+  margin: 50px;
+}
+.category-text,
+.category-ads {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 70px;
+}
+
+.category-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-images h6 {
+  text-align: center;
+}
+.category-ads {
+  margin: 40px;
+}
+.ads-text p {
+  text-align: justify;
+}
+.ads-text button {
+  padding: 10px;
+  justify-items: end;
+}
